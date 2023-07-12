@@ -8,3 +8,13 @@
 html, body {
     font-family: 'Roboto', sans-serif;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    align-self: flex-end;
+}
+    
