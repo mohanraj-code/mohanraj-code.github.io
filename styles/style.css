@@ -9,12 +9,25 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-body {
+.contatiner {
+    height: 100vh;
+    box-sizing: border-box;
+    background: rgb(250, 250, 250);
     display: flex;
     flex-direction: column;
 }
+header {
+    background: blue;
+    height: 4em;
+}
+
+main {
+    box-sizing: content-box;
+    height: 100%;
+}
 
 footer {
-    align-self: flex-end;
+    background: greenyellow;
 }
+
     
